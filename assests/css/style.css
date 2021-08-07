@@ -1,0 +1,38 @@
+/*
+===================================
+Basic Setup
+===================================
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p{
+	font-size: 14px;
+}
+
+/*
+====================
+Start Preloader
+====================
+*/
+
+.preloader {
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+}
+
+/*
+====================
+End Preloader
+====================
+*/
